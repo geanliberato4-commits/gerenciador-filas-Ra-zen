@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerar Senha</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image:url('../public/bg-tela2.jpeg'); background-size:cover; background-position:center;">
+  <h1>Gerar Senha</h1>
+  <form id="formSenha">
+    <label>Nome do Motorista:</label><br>
+    <input type="text" id="nome" required><br>
+    <label>Placa:</label><br>
+    <input type="text" id="placa" required><br>
+    <label>Tipo de Atendimento:</label><br>
+    <select id="tipo">
+      <option value="checklist">Check List</option>
+      <option value="atendimento">Atendimento Geral</option>
+      <option value="pendencia">Pendência Operacional</option>
+      <option value="erro">Erro Bancos de Dados</option>
+      <option value="nf">NF Travada</option>
+      <option value="descarga">Descarga</option>
+    </select><br><br>
+    <button type="submit">Gerar Senha</button>
+  </form>
+  <script src="../scripts/script_tela2.js"></script>
+</body>
+</html>
