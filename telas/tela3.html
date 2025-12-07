@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Atendente</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image:url('../public/bg-tela3.jpeg'); background-size:cover; background-position:center;">
+  <h1>Painel do Atendente</h1>
+  <label>Escolher Guichê:</label>
+  <select id="guiche">
+    <option value="1">Guichê 1</option>
+    <option value="2">Guichê 2</option>
+    <option value="3">Guichê 3</option>
+  </select><br><br>
+
+  <h2>Senhas por Tipo</h2>
+  <div id="senhas"></div>
+
+  <h2>Admin (trocar fundo / vídeo)</h2>
+  <label>Fundo Tela de Gerar Senha:</label>
+  <input type="file" id="fundoTela2"><br>
+  <label>Fundo Tela Atendente:</label>
+  <input type="file" id="fundoTela3"><br>
+  <label>Link do Vídeo Tela de Chamada:</label>
+  <input type="text" id="videoURL"><br>
+  <button id="salvarConfig">Salvar Configuração</button>
+
+  <script src="../scripts/script_tela3.js"></script>
+</body>
+</html>
