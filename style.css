@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; color: #fff; background-color: #006400; }
+h1, h2 { text-align:center; }
+input, select, button { display:block; margin:10px auto; padding:10px; font-size:1em; }
+button { background-color:#008000; color:white; border:none; cursor:pointer; }
+button:hover { background-color:#00b300; }
