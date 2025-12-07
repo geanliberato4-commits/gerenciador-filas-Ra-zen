@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tela de Chamada</title>
+  <style>
+    body { margin:0; overflow:hidden; background:black; display:flex; justify-content:center; align-items:center; }
+    #video { position:absolute; top:0; left:0; width:100%; height:100%; z-index:0; }
+    #chamada { position:absolute; z-index:1; color:white; font-size:3em; text-align:center; display:none; }
+  </style>
+</head>
+<body>
+  <iframe id="video" src="https://www.youtube.com/embed/ATdNTg2vmwg?autoplay=1&loop=1&playlist=ATdNTg2vmwg&mute=1" frameborder="0" allowfullscreen></iframe>
+  <div id="chamada"></div>
+
+  <audio id="somChamada" src="../public/som_chamada.mp3"></audio>
+
+  <script src="../scripts/script_tela1.js"></script>
+</body>
+</html>
